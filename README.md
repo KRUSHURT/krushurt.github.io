@@ -1,0 +1,1 @@
+# krushurt.github.io
