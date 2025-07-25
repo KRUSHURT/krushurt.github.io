@@ -4,12 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>KRUSHURT - Originalmente teu</title>
-  
-  <!-- Google Fonts: Montserrat -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Fontes do Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
 
   <style>
-    /* Reset básico */
     * {
       margin: 0;
       padding: 0;
@@ -17,10 +16,10 @@
     }
 
     body {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       background: #fff;
-      color: #222;
-      max-width: 900px;
+      color: #111;
+      max-width: 1000px;
       margin: 40px auto;
       padding: 0 20px;
       line-height: 1.6;
@@ -31,41 +30,36 @@
       justify-content: space-between;
       align-items: center;
       padding-bottom: 30px;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #ccc;
     }
 
     header h1 {
-      font-weight: 900;
-      font-size: 2.5rem;
-      letter-spacing: 5px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3rem;
+      letter-spacing: 4px;
       color: #111;
-      text-transform: uppercase;
     }
 
     header p {
       font-style: italic;
       font-weight: 600;
       color: #b22222;
-      letter-spacing: 2px;
-      font-size: 1.2rem;
-      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 1px;
     }
 
     nav {
-      margin-top: 25px;
-      margin-bottom: 45px;
+      margin: 30px 0;
       text-align: center;
     }
 
     nav a {
+      font-family: 'Bebas Neue', sans-serif;
       text-decoration: none;
-      color: #222;
-      font-weight: 600;
-      margin: 0 25px;
-      font-size: 1.15rem;
-      transition: color 0.3s ease;
-      text-transform: uppercase;
+      color: #111;
+      margin: 0 20px;
+      font-size: 1.3rem;
       letter-spacing: 2px;
+      transition: color 0.3s ease;
     }
 
     nav a:hover {
@@ -73,7 +67,7 @@
     }
 
     section {
-      padding-bottom: 60px;
+      padding: 60px 0;
       border-bottom: 1px solid #eee;
     }
 
@@ -82,22 +76,21 @@
     }
 
     h2 {
-      font-weight: 800;
-      font-size: 2rem;
-      margin-bottom: 25px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.2rem;
       letter-spacing: 3px;
-      color: #111;
       text-align: center;
+      color: #111;
+      margin-bottom: 30px;
       text-transform: uppercase;
     }
 
     p {
-      max-width: 700px;
-      font-weight: 400;
       font-size: 1.05rem;
-      color: #444;
+      max-width: 700px;
       margin: auto;
       text-align: center;
+      color: #333;
       margin-bottom: 25px;
     }
 
@@ -109,25 +102,23 @@
     }
 
     .item {
-      background: #fafafa;
+      background: #f8f8f8;
       padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
+      border-radius: 8px;
       text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
     }
 
     .item:hover {
-      transform: translateY(-7px);
-      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transform: translateY(-6px);
     }
 
     .item img {
-      max-width: 100%;
+      width: 100%;
       height: auto;
-      border-radius: 8px;
-      margin-bottom: 18px;
+      border-radius: 6px;
+      margin-bottom: 15px;
       filter: grayscale(20%);
       transition: filter 0.3s ease;
     }
@@ -138,22 +129,24 @@
 
     .lyric {
       font-style: italic;
-      color: #b22222;
       font-weight: 600;
-      margin-bottom: 15px;
-      font-size: 1rem;
-      min-height: 48px;
+      color: #b22222;
+      margin-bottom: 10px;
+    }
+
+    .item-title {
+      font-weight: bold;
+      color: #000;
     }
 
     footer {
       text-align: center;
       padding: 35px 0;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #888;
-      letter-spacing: 1px;
       text-transform: uppercase;
+      letter-spacing: 1px;
     }
-
   </style>
 </head>
 <body>
@@ -174,49 +167,43 @@
 
   <section id="inicio">
     <h2>Bem-vindo à KRUSHURT</h2>
-    <p>Camisas personalizadas com atitude, unindo letras icônicas de bandas e imagens impactantes de esqueletos e crânios para expressar sua originalidade.</p>
+    <p>Camisas personalizadas com atitude — letras marcantes de bandas e ilustrações de esqueletos e crânios que expressam quem você é.</p>
   </section>
 
   <section id="colecao">
     <h2>Coleção</h2>
     <div class="collection-grid">
       <div class="item">
-        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=400&q=80" alt="T-shirt Crânio 1" />
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=400&q=80" alt="T-shirt Skull 1" />
         <div class="lyric">"No fear, no pain, just rock and roll."</div>
-        <div>T-shirt Skull Rock</div>
+        <div class="item-title">T-shirt Skull Rock</div>
       </div>
       <div class="item">
-        <img src="https://images.unsplash.com/photo-1527434001472-f1f687d2e60a?auto=format&fit=crop&w=400&q=80" alt="T-shirt Crânio 2" />
+        <img src="https://images.unsplash.com/photo-1527434001472-f1f687d2e60a?auto=format&fit=crop&w=400&q=80" alt="T-shirt Skull 2" />
         <div class="lyric">"Lost in the shadows of the night."</div>
-        <div>T-shirt Dark Skull</div>
+        <div class="item-title">T-shirt Dark Skull</div>
       </div>
       <div class="item">
-        <img src="https://images.unsplash.com/photo-1530629013299-6cb85f98e317?auto=format&fit=crop&w=400&q=80" alt="T-shirt Crânio 3" />
+        <img src="https://images.unsplash.com/photo-1530629013299-6cb85f98e317?auto=format&fit=crop&w=400&q=80" alt="T-shirt Skull 3" />
         <div class="lyric">"Scream the words that set you free."</div>
-        <div>T-shirt Rebel Skull</div>
+        <div class="item-title">T-shirt Rebel Skull</div>
       </div>
     </div>
   </section>
 
   <section id="sobre">
-    <h2>Sobre a KRUSHURT</h2>
-    <p>KRUSHURT nasceu da paixão pela música, arte e autenticidade. Criamos camisetas que falam a sua língua, com design impactante e alma rebelde. Cada peça é feita para quem não tem medo de ser original.</p>
+    <h2>Sobre a marca</h2>
+    <p>KRUSHURT nasceu da paixão pela música, arte e autenticidade. Criamos t-shirts com alma — estampas que gritam atitude e representam quem vive fora da caixa.</p>
   </section>
 
   <section id="contato">
     <h2>Contato</h2>
-    <p>Quer saber mais? Fale conosco no email:</p>
+    <p>Tem alguma dúvida ou quer fazer parte? Escreve para:</p>
     <p><a href="mailto:geral@krushurt.pt" style="color:#b22222; font-weight:600;">geral@krushurt.pt</a></p>
   </section>
 
   <footer>
     <p>© 2025 KRUSHURT. Originalmente teu.</p>
-  </footer>
-
-</body>
-</html>
-  <footer>
-    <p>© 2025 KRUSHURT.</p>
   </footer>
 
 </body>
