@@ -186,10 +186,16 @@
 
   <section id="contato">
     <h2>Contato</h2>
-    <p>Queres saber mais? Fala conosco no email:</p>
+    <p>Quer saber mais? Fala conosco no email:</p>
     <p><a href="mailto:geral@krushurt.pt" style="color:#aa0000; font-weight:600;">geral@krushurt.pt</a></p>
   </section>
 
+  <footer>
+    <p>© 2025 KRUSHURT.</p>
+  </footer>
+
+</body>
+</html>
   <footer>
     <p>© 2025 KRUSHURT.</p>
   </footer>
